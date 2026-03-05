@@ -1,2 +1,2 @@
 # thietkeweb_lienthong
-nơi chứa bài học phần thiết kế web
+nơi chứa bài tập học phần thiết kế web
