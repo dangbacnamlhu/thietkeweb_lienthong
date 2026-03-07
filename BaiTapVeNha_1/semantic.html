@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Cấu trúc Semantic</title>
+    <style>
+        /* Một số style cơ bản giúp phân biệt các phần tử */
+        header, nav, article, aside, footer {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 5px;
+        }
+        nav a {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <header> thường chứa logo, tiêu đề, biểu ngữ -->
+    <header>
+        <h1>Tiêu đề trang</h1>
+        <p>Mô tả ngắn gọn về trang</p>
+    </header>
+
+    <!-- <nav> dùng cho menu điều hướng -->
+    <nav>
+        <a href="#">Trang chủ</a>
+        <a href="#">Giới thiệu</a>
+        <a href="#">Liên hệ</a>
+        <!-- Liên kết mới tới trang thảo luận AI -->
+        <a href="https://example.com/ai-overview" target="_blank">Ưu nhược điểm AI</a>
+    </nav>
+
+    <!-- <article> chứa nội dung chính của bài viết hoặc trang -->
+    <article>
+        <h2>Tiêu đề bài viết</h2>
+        <p>Đây là một bài báo hoặc nội dung chính. Học viên nên đặt phần nội dung chính vào thẻ <code>&lt;article&gt;</code>.</p>
+        <!-- Mô tả ngắn gọn về AI cho lập trình viên -->
+        <section>
+            <h3>AI và lập trình</h3>
+            <p>AI giúp tăng tốc công việc, cung cấp gợi ý mã và tự động hoá các tác vụ lặp lại. Tuy nhiên, người học cần cẩn trọng vì AI đôi khi tạo ra lỗi và có thể làm giảm khả năng tư duy độc lập.</p>
+        </section>
+    </article>
+
+    <!-- <aside> dùng cho nội dung bổ sung như quảng cáo, thông tin liên quan -->
+    <aside>
+        <h3>Thông tin thêm</h3>
+        <p>Đây là phần bên lề, có thể chứa liên kết, quảng cáo hoặc ghi chú.</p>
+    </aside>
+
+    <!-- <footer> nằm cuối trang, chứa thông tin bản quyền hoặc liên hệ -->
+    <footer>
+        <p>&copy; 2026 Tên của bạn. Tất cả quyền được bảo lưu.</p>
+    </footer>
+</body>
+</html>
